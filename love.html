@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<title>จดหมายถึงพี่</title>
+<style>
+body {
+background-color: #ffe6f0;
+font-family: 'segoe ui', sans-serif;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 100vh;
+margin: 0;
+text-align: center;
+}
+h1 {
+color: #ff3399;
+animation: pulse 2s infinite;
+}
+p {
+font-size: 1.2em;
+color: #333;
+}
+.heart {
+font-size: 50px;
+animation: beat 1s infinite;
+}
+@keyframes beat {
+0%, 100% { transform: scale(1); }
+50% { transform: scale(1.2); }
+}
+@keyframes pulse {
+0%, 100% { color: #ff3399; }
+50% { color: #ff66cc; }
+}
+button {
+margin-top: 20px;
+padding: 10px 20px;
+font-size: 16px;
+background-color: #ff99cc;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+transition: 0.3s;
+}
+button:hover {
+background-color: #ff66b2;
+}
+</style>
+</head>
+<body>
+<div class="heart">♥</div>
+<h1>ถึง พี่ไลเก้อออ</h1>
+<p>หนูแค่อยากจะบอกว่า...</p>
+<p><strong>ขอบคุณที่ใส่ใจดูแลหนูมาตลอดนะคะะ</strong></p>
+<p>อยู่กับหนูไปนาน ๆ น้าาา</p>
+<button onclick="alert('จาก: ต่นต๊นน ขอบคุณที่คอยปลอบคอยทำให้หนูกินข้าวอร่อยมากขึ้นนะคะ คอยทำให้หนูไม่เหงาทำให้หนูรักตัวเองมากขึ้นน นอนไวขึ้น แล้วก็อีกหลายๆอย่างเบยย')">คลิกอ่านต่อ</button>
+</body>
+</html>
